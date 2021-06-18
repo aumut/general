@@ -1,0 +1,63 @@
+/* GENERAL */
+*
+  box-sizing: border-box
+  &:focus, &:active
+    outline: none !important
+
+@viewport
+  width: device-width
+
+html
+  scroll-behavior: smooth
+  font-size: 10px
+
+
+body
+  font:
+    family: Arial, sans-serif
+    size: .9375vw
+    weight: 400
+  color: $fontColorMain
+  line-height: $lineHeight_body
+  min-width: $phone-width-min
+  margin: 0
+  padding: 0
+  height: 100vh
+  background-color: $bg-body
+  font-family: $ff
+  position: relative
+
+h1, h2, h3, h4, h5, h6, p, ul, ol
+  margin: 0px
+  padding: 0px
+
+h1
+  font-size: $fontSize_h1
+  line-height: $lineHeight_h1
+  font-weight: normal
+  text-transform: uppercase
+
+h2
+  font-size: $fontSize_h2
+  line-height: $lineHeight_h2
+  font-weight: 400
+  text-transform: uppercase
+
+a
+  text-decoration: none
+
+.container
+  max-width: 85.9vw
+  width: 100%
+  padding: 0 $pd_cont
+  margin: 0 auto
+  position: relative
+
+.fullscreen
+  .container
+    height: 100%
+
+.title
+  color: $fontColorMain
+  font-family: $ff
+

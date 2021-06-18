@@ -1,0 +1,68 @@
+/* VARIABLES */
+/* MIXINS */
+/* FONT FACE */
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.otf"), url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+/* GENERAL */
+* {
+  box-sizing: border-box; }
+  *:focus, *:active {
+    outline: none !important; }
+
+@viewport {
+  width: device-width; }
+html {
+  scroll-behavior: smooth;
+  font-size: 10px; }
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.9375vw;
+  font-weight: 400;
+  color: #FFF;
+  line-height: 1.225;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #FFF;
+  font-family: Arial, sans-serif;
+  position: relative; }
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 85.9vw;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative; }
+
+.fullscreen .container {
+  height: 100%; }
+
+.title {
+  color: #FFF;
+  font-family: Arial, sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
